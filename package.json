@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/diffclip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diff structured JSON clip payloads without a heavyweight toolkit.",
+  "bin": {
+    "diffclip": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/diffclip.git"
+  },
+  "homepage": "https://theworker02.github.io/diffclip/",
+  "keywords": [
+    "diff",
+    "clip",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
